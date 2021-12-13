@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+  align-items: center;
+  height: 100vh;
+  background: url(../img/HERO\ IMG.png) no-repeat center center/cover;
+}
+.nav-content {
+  padding-left: 165px;
+  padding-right: 180px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+li {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 20px;
+  color: white;
+  list-style: none;
+}
+.nav-text-p {
+  width: 154px;
+  height: 38px;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: white;
+}
+.nav-btn-content {
+  width: 157px;
+  height: 47px;
+  background: #ff7400;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 1);
+}
+.header-content {
+  position: absolute;
+  bottom: 250px;
+  left: 170px;
+  text-align: center;
+}
+.header-text-h2 {
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 57px;
+  color: #d67e35;
+}
+.header-text-h1 {
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 92px;
+
+  color: #d67e35;
+}
+.header-text-p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.header-btn-content {
+  width: 137px;
+  height: 47px;
+  background: #ff7400;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
